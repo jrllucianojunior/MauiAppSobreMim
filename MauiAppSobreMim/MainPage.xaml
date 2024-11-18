@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppSobreMim.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+            <Label
+                Text="Luciano de Araujo Junior"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Sobre Mim&#10;&#10;Olá, meu nome é Luciano. Atualmente estou cursando o sétimo semestre de Engenharia da Computação e trabalho como Técnico em Desenvolvimento Júnior. Tenho experiência em desenvolvimento de sistemas, banco de dados e APIs.&#10;&#10;No meu trabalho, sou responsável por desenvolver soluções inovadoras para problemas técnicos, focando em qualidade e eficiência. Possuo conhecimento em várias tecnologias, como .NET, JavaScript, e banco de dados Oracle.&#10;&#10;Na faculdade, estudo áreas como Algoritmos, Desenvolvimento de Sistemas, Segurança da Informação e Sistemas Embarcados. Essa formação me ajuda a expandir meu conhecimento e aprimorar minhas habilidades práticas."
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
